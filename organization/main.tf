@@ -1,42 +1,5 @@
 locals {
   organization = {
-    accounts = [
-      {
-        name  = "sharedservices"
-        key   = "goldrock-sharedservices"
-        email = "mccmcc+sharedservices@amazon.com"
-      },
-      {
-        name  = "robo"
-        key   = "goldrock-robo"
-        email = "mccmcc+robo@amazon.com"
-      },
-      {
-        name  = "r66y"
-        key   = "goldrock-r66y"
-        email = "mccmcc+r66y@amazon.com"
-      },
-      {
-        name  = "corp01"
-        key   = "goldrock-corp1"
-        email = "mccmcc+corp01@amazon.com"
-      },
-      {
-        name  = "corp02"
-        key   = "goldrock-corp2"
-        email = "mccmcc+corp02@amazon.com"
-      },
-      {
-        name  = "corp03"
-        key   = "goldrock-corp3"
-        email = "mccmcc+corp03@amazon.com"
-      },
-      {
-        name  = "fieldoffice01"
-        key   = "goldrock-fieldoffice01"
-        email = "mccmcc+fieldoffice01@amazon.com"
-      }
-    ]
     units = [
       {
         name = "security",
@@ -45,7 +8,7 @@ locals {
           {
             name  = "securityservices"
             key   = "goldrock-securityservices"
-            email = "mccmcc+securityservices@amazon.com"
+            email = "mccmcc+goldrock7securityservices@amazon.com"
           }
         ]
         units = [
